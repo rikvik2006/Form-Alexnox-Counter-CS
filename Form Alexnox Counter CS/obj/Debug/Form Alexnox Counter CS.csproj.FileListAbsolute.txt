@@ -1,0 +1,10 @@
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\bin\Debug\Form Alexnox Counter CS.exe.config
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\bin\Debug\Form Alexnox Counter CS.exe
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\bin\Debug\Form Alexnox Counter CS.pdb
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\obj\Debug\Form Alexnox Counter CS.csprojAssemblyReference.cache
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\obj\Debug\Form_Alexnox_Counter_CS.Form1.resources
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\obj\Debug\Form_Alexnox_Counter_CS.Properties.Resources.resources
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\obj\Debug\Form Alexnox Counter CS.csproj.GenerateResource.cache
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\obj\Debug\Form Alexnox Counter CS.csproj.CoreCompileInputs.cache
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\obj\Debug\Form Alexnox Counter CS.exe
+C:\Users\rikvi\Documents\GitHub\Form Alexnox Counter CS\Form Alexnox Counter CS\obj\Debug\Form Alexnox Counter CS.pdb
