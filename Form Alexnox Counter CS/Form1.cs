@@ -25,6 +25,7 @@ namespace Form_Alexnox_Counter_CS
         private void Form1_Load(object sender, EventArgs e)
         {
             Count.Text = counter.ToString();
+            this.KeyPreview = true;
         }
 
         
@@ -49,37 +50,31 @@ namespace Form_Alexnox_Counter_CS
             MessageBox.Show("Salvato");
         }
 
-        private void button1_KeyDown(object sender, KeyEventArgs e)
+
+        private void button4_Click(object sender, EventArgs e)
         {
-            if (e.Control == true && e.KeyCode == Keys.F17)
+            MessageBox.Show("+1 = Ctrl + F22 \n\n -1 = Alt + F22 \n\n Save = Shift + F22");
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control == true && e.KeyCode == Keys.F22)
             {
                 counter++;
                 Count.Text = counter.ToString();
             }
 
-        }
-
-        private void button2_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Control == true && e.KeyCode == Keys.F18)
+            if (e.Alt == true && e.KeyCode == Keys.F22)
             {
                 counter--;
                 Count.Text = counter.ToString();
             }
-        }
 
-        private void button3_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Control == true && e.KeyCode == Keys.F19)
+            if (e.Shift == true && e.KeyCode == Keys.F22)
             {
                 Settings.Default["Count"] = int.Parse(Count.Text);
                 Settings.Default.Save();
             }
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("+1 = Ctrl + F17 \n\n -1 = Ctrl + F18 \n\n Save = Ctrl + F19");
         }
     }
 }
