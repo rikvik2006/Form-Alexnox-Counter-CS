@@ -17,6 +17,8 @@ namespace Form_Alexnox_Counter_CS
 {
     public partial class Form1 : Form
     {
+
+
         public Form1()
         {
             InitializeComponent();
@@ -26,6 +28,9 @@ namespace Form_Alexnox_Counter_CS
         {
             Count.Text = counter.ToString();
             this.KeyPreview = true;
+
+
+
         }
 
         
@@ -58,7 +63,7 @@ namespace Form_Alexnox_Counter_CS
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Control == true && e.KeyCode == Keys.F22)
+            if (e.Control == true && e.KeyCode == Keys.P)
             {
                 counter++;
                 Count.Text = counter.ToString();
@@ -77,4 +82,5 @@ namespace Form_Alexnox_Counter_CS
             }
         }
     }
+
 }
