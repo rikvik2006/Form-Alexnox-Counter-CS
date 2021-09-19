@@ -10,4 +10,4 @@ Un **counter** qualunque ma con **SAVE del count** e **Short-Cut** con **global 
 
 ### Ultimo Relese
 
-[Relase v0.2.1] (https://github.com/rikvik2006/Form-Alexnox-Counter-CS/releases/tag/v0.2.1-beta)
+[Relase v0.2.1](https://github.com/rikvik2006/Form-Alexnox-Counter-CS/releases/tag/v0.2.1-beta)
